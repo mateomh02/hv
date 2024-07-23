@@ -1,6 +1,9 @@
 body {
   background-color: black;
 }
+*, ::after, ::before {
+  box-sizing: border-box;
+}
 header{
     .container{
         padding: 20px 25px;
@@ -49,12 +52,34 @@ header{
         }
     }
     &--buttons{
-        display: none;
         position: absolute;
         left: 0;
-        top: 100%;
+        top: 120%;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        width: 100%;
+        right: 0;
+        left: auto;
+        &--select{
+          display: flex;
+          flex-direction: column;
+          row-gap: 5px;
+          width: 100%;
+          align-items: start;
+          border: 1px solid $cp1;
+          // background-color: $cp3;
+          border-radius: 10px;
+          padding: 10px 0 10px 14px;
+        }
+        button{
+          background-color: transparent;
+          border: none;
+          padding: 0;
+          color: $cp1;
+        }
         &.active{
-            display: block;
+          max-height: 300%;
         }
         
     }
@@ -74,13 +99,14 @@ header{
   .container-menu{
     &__span {
       width: 23px;
-      height: 12px;
+      height: 16px;
       position: relative;
       span {
         display: block;
         height: 2px;
         width: 100%;
         background-color: $cp1;
+        transition: all 0.5s ease;
       }
       &--one {
         position: absolute;
@@ -123,6 +149,19 @@ header{
       top: 17px;
       background: rgba(235, 239, 243, .6);
       backdrop-filter: blur(2px);
+    }
+    .container-menu{
+      &__span{
+        &--one{
+          transform: translateY(7px) rotate(45deg)
+        }
+        &--two{
+          transform: translate(0, -50%) scaley(0);
+        }
+        &--three{
+          transform: translateY(-7px)rotate(-45deg);
+        }
+      }
     }
     ul{
       display: block;

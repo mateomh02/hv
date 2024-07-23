@@ -85,8 +85,10 @@ export default function Header() {
           </div>
 
           <div className={`container__language--buttons ${activeLanguage ? 'active' : ''}`}>
-            <button className={`container__language--select-lng--en ${i18n.language === 'en' ? 'active' : ''}`} onClick={() => changeLanguage('en')}>En</button>
-            <button className={`container__language--select-lng--es ${i18n.language === 'es' ? 'active' : ''}`} onClick={() => changeLanguage('es')}>Es</button>
+            <div className="container__language--buttons--select">
+              <button className={`container__language--select-lng--en ${i18n.language === 'en' ? 'active' : ''}`} onClick={() => changeLanguage('en')}>En</button>
+              <button className={`container__language--select-lng--es ${i18n.language === 'es' ? 'active' : ''}`} onClick={() => changeLanguage('es')}>Es</button>
+            </div>
           </div>
         </div>
       </div>

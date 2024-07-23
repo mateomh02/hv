@@ -1,1 +1,16 @@
-.home &{}
+@keyframes animationSpan1{
+    to{
+        top: 50%;
+    }
+    from{
+        transform: translate(0%, -50%) rotate(45deg);
+    }
+}
+@keyframes animationSpan1{
+    to{
+        top: 50%;
+    }
+    from{
+        transform: translate(0%, -50%) rotate(-45deg);
+    }
+}
