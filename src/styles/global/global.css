@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+.container .container__language-img-name--img {
+  width: 50px;
+  display: block;
+  height: 50px;
+}
+.container .container__language-img-name--img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top left;
+     object-position: top left;
+  border-radius: 50%;
+}/*# sourceMappingURL=global.css.map */
