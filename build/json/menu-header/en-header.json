@@ -1,0 +1,18 @@
+{
+    "imagen_logo": "../img/logo.svg",
+    "items": [
+      {
+        "nombre": "Home",
+        "url": "/"
+      },
+      {
+        "nombre": "Experience",
+        "url": "/experiencia"
+      },
+      {
+        "nombre": "Portfolio",
+        "url": "/portafolio"
+      }
+    ]
+  }
+  
