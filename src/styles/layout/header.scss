@@ -16,8 +16,11 @@ header{
 }
 .container__logo{
     height: fit-content;
-    width: 80px;
-    height: fit-content;
+    width: 50px;
+    @include mq (md){
+      width: 80px;
+
+    }
     img{
         filter: invert(1);
         width: 100%;
