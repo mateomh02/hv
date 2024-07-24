@@ -77,7 +77,9 @@ export default function Header() {
           </div>
         </div>
         <div className="container__logo">
-          {logo && <img src={logo.imagen_logo} alt="logo" />}
+          <NavLink to='/'>
+            {logo && <img src={logo.imagen_logo} alt="logo" />}
+          </NavLink>
         </div>
         <div className="container__language">
           <div className="container__language__flag-arrow" onClick={activeChangeLenguage}>
@@ -85,7 +87,7 @@ export default function Header() {
               {i18n.language === 'en' ? ('En') : ('Es')}
             </span>
             <span className="container__language__flag-arrow--img" >
-              {i18n.language === 'en' ? (<Flag code={'US'} />) : (<Flag code={'CO'} />)}
+              {i18n.language === 'en' ? (<Flag code={'GB'} />) : (<Flag code={'CO'} />)}
             </span>
             <span className="container__language__flag-arrow--arrow"></span>
           </div>

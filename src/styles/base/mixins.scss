@@ -1,0 +1,72 @@
+// ========== * Author: Mateo Hernandez * ==========
+// ========== * Company: Web Digital Ark * ==========
+
+@use "sass:map";
+// ============= * Media Query * ===============
+$mediaQuerys: (
+  "xxs": 320px,
+  "xss": 370px,
+  "xssx": 418px,
+  "xs": 480px,
+  "sm": 768px,
+  "md": 992px,
+  "mdx": 1024px,
+  "lg": 1200px,
+  "lg-xm": 1280px,
+  "lg-m": 1300px,
+  "xlg": 1500px,
+  "xslg": 1940px,
+  "xxlg": 2000px,
+);
+
+// ========= * Function Media Query * =============
+@mixin mq($mquery) {
+  @media (min-width: map.get($mediaQuerys,$mquery)) {
+    @content;
+  }
+}
+
+@mixin fontFamilyStlye1($weight, $color){
+    font-family: $fp1;
+    font-weight: $weight;
+    color: $color;
+    font-size: 22px;
+    line-height: 24px;
+    @include mq (md){
+        font-size: 32px;
+        line-height: 34px;
+    }
+}
+@mixin fontFamilyStlye2($weight, $color){
+    font-family: $fp1;
+    font-weight: $weight;
+    color: $color;
+    font-size: 20px;
+    line-height: 22px;
+    @include mq (md){
+        font-size: 26px;
+        line-height: 28px;
+    }
+}
+@mixin fontFamilyStlye3($weight, $color){
+    font-family: $fp1;
+    font-weight: $weight;
+    color: $color;
+    font-size: 14px;
+    line-height: 16px;
+    @include mq (md){
+        font-size: 22px;
+        line-height:25px;
+    }
+}
+@mixin fontFamilyStlye4($weight, $color){
+    font-family: $fp1;
+    font-weight: $weight;
+    color: $color;
+    font-size: 12px;
+    line-height: 14px;
+    @include mq (md){
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
