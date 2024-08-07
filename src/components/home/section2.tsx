@@ -29,7 +29,7 @@ export default function Section2() {
                 <span className="section-container-two-wrapper__rol--dev">developer</span>
                 {homeInfo.map((item, index) => (
                     item.url_img_left && (
-                        <div className="section-container-two-wrapper__rol--img"><img src={item.url_img_left} alt="memoji" /></div>
+                        <div key={`section--2-${index}`} className="section-container-two-wrapper__rol--img"><img src={item.url_img_left} alt="memoji" /></div>
                     )
                 ))}
             </div>
