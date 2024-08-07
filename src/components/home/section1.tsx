@@ -32,7 +32,7 @@ export default function Section1() {
                     end: () => "+=" + (textElement.scrollWidth - window.innerWidth),
                     scrub: 0.5,
                     invalidateOnRefresh: true,
-                    // markers: true,
+                    markers: true,
                 }
             });
         }
