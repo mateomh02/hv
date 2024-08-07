@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { use } from "i18next";
 gsap.registerPlugin(ScrollTrigger);
 interface InfoHome {
     name_developer: string,
@@ -18,8 +19,11 @@ export default function Section1() {
     // =====================================================
 
     // ============== * Animation Gsap * ================
+    useEffect(()=>{
+        
+    }, [homeInfo])
     const textElement = containerH1.current?.querySelector<HTMLDivElement>(".section-container-one__name__text")
-    console.log(containerH1.current)
+    console.log('Testing..')
     useGSAP(() => {
         if(textElement){
             gsap.to(textElement!, {
@@ -37,7 +41,7 @@ export default function Section1() {
             });
         }
     },
-        { dependencies: [homeInfo]})
+        { dependencies: [homeInfo], revertOnUpdate: true})
     // ==================================================
 
     // ============== * UseEffect * ===============

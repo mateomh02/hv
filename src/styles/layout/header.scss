@@ -80,6 +80,7 @@ header{
         width: 120%;
         right: 0;
         left: auto;
+        z-index: 99;
         &--select{
           display: flex;
           flex-direction: column;
