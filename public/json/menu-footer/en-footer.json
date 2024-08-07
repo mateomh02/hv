@@ -1,0 +1,11 @@
+[
+    {
+        "network":[
+            {"key":"ln", "url_img":"../img/icons/in.svg", "url_profile": "https://www.linkedin.com/in/marlon-mateo-hern%C3%A1ndez-pati%C3%B1o-0635341aa/"},
+            {"key":"gitHub", "url_img":"../img/icons/github.svg", "url_profile": "https://github.com/mateomh02"},
+            {"key":"wpp", "url_img":"../img/icons/wpp.svg", "url_profile": "https://wa.link/n8vcu9"},
+            {"key":"email", "url_img":"../img/icons/mail.svg", "url_profile": "mh0846843@gmail.com"},
+            {"key":"logo", "url_img":"../img/logo-2.png", "url_profile": "/"}
+        ]
+    }
+]

@@ -1,37 +1,16 @@
-import { error } from "console";
-import { use } from "i18next"
-import { useState, useEffect } from "react"
-import { useTranslation } from 'react-i18next';
-
-interface Info {
-  items: [
-    nombre: string,
-    url: string
-  ]
-}
+import Section1 from '../components/home/section1';
+import Section2 from '../components/home/section2';
+import Section3 from '../components/home/section3';
+import Section4 from '../components/home/section4';
 export default function Home() {
-  const [info, setInfo] = useState<Info[]>([]);
-  const { i18n } = useTranslation();
-  useEffect(() => {
-    async function getInfoPage() {
-      try {
-        const response = await fetch(`../json/menu-header/${i18n.language}-header.json`)
-        if(!response){
-          throw new Error('Network response was not ok :( ')
-        }
-        const data =  await response.json();
-        setInfo(data)
-      } catch (error) {
-        console.error('There was a problem with the fetch operation '+error)
-      }
-    }
-    getInfoPage()
-  }, [i18n.language])
-
-  // console.log(info)
-  return  (
-    <h1>
-      Home
-    </h1>
+  return (
+    <main className="main-wrapper">
+      <div className="container-home">
+        <Section1/>   
+        <Section2/>   
+        <Section3/>   
+        <Section4/>   
+      </div>
+    </main>
   )
 }

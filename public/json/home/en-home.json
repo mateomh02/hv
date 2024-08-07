@@ -1,0 +1,38 @@
+[
+    {
+        "text_background": "FRONTEND",
+        "name_developer": "MATEO HERNANDEZ /- DEVELOPER -/ FRONT-/END/",
+        "url_img": "../img/img-developer.png"
+    },
+    {
+        "title":"Hi, I'm Mateo, a /front-end developer/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation  ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse",
+        "img_memoji": "../img/image-memoji.png",
+        "url_img_left":"../img/imagen-2.png"
+    },
+    {
+        "section_skills":[
+            { "key": "title", "value": "S-k-i-l-l-s" },
+            { "key": "one_letter", "value": "S-Lorem ipsum dolor si" },
+            { "key": "two_letter", "value": "K-Lorem ipsum dolor si" },
+            { "key": "three_letter", "value": "I-Lorem ipsum dolor si" },
+            { "key": "four_letter", "value": "L-Lorem ipsum dolor si" },
+            { "key": "five_letter", "value": "L-Lorem ipsum dolor si" },
+            { "key": "six_letter", "value": "S-Lorem ipsum dolor si" }
+        ]
+    },
+    {
+        "section_aptitudes":[
+            { "key": "title_aptitudes", "value": "A-p-t-i-t-u-d-e-s" },
+            { "key": "one_letter_aptitudes", "value": "A-Lorem ipsum dolor si" },
+            { "key": "two_letter_aptitudes", "value": "P-Lorem ipsum dolor si" },
+            { "key": "three_letter_aptitudes", "value": "T-Lorem ipsum dolor si" },
+            { "key": "four_letter_aptitudes", "value": "I-Lorem ipsum dolor si" },
+            { "key": "five_letter_aptitudes", "value": "T-Lorem ipsum dolor si" },
+            { "key": "six_letter_aptitudes", "value": "U-Lorem ipsum dolor si" },
+            { "key": "seven_letter_aptitudes", "value": "D-Lorem ipsum dolor si" },
+            { "key": "eight_letter_aptitudes", "value": "E-Lorem ipsum dolor si" },
+            { "key": "nine_letter_aptitudes", "value": "S-Lorem ipsum dolor si" }
+        ]
+    }
+]

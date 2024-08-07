@@ -1,0 +1,311 @@
+.section-container-one {
+  min-height: calc(100vh - 86px);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  @include mq(md) {
+    min-height: auto;
+    height: calc(100vh - 124px);
+  }
+  &__name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    &__text {
+      text-wrap: nowrap;
+      transform: translate(0, 0);
+      margin: 0;
+      @include fontBanner($cp1);
+      font-weight: 100;
+      @include mq(xs) {
+        font-size: 185px;
+      }
+      @include mq(md) {
+        font-size: 15vw;
+        line-height: 15vw;
+      }
+      @include mq(lg-m) {
+        font-size: 200px;
+        line-height: 200px;
+      }
+      span {
+        color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: white;
+        font-style: italic;
+      }
+    }
+  }
+  &__img {
+    // width: 75%;
+    margin: 0 auto;
+    height: 85%;
+    // max-width: 350px;
+    @include mq(md) {
+      max-width: none;
+      width: 100%;
+      height: 100%;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+.section-container-two {
+  background-color: $cp1;
+  &-wrapper {
+    padding: 12px 22px 22px 22px;
+    @include mq(md) {
+      display: flex;
+      width: 88.888%;
+      max-width: 1280px;
+      margin: 0 auto;
+      column-gap: 5%;
+      padding: 22px 0;
+      min-height: 650px;
+    }
+    &__rol {
+      @include mq(md) {
+        width: 40.818%;
+        min-width: 450px;
+        display: flex;
+      }
+      &--dev {
+        @include fontFamilyStlye3(800, $cp2);
+        text-transform: uppercase;
+        display: flex;
+        @include mq(md) {
+          display: none;
+        }
+      }
+      &--img {
+        display: none;
+        width: 100%;
+        @include mq(md) {
+          display: block;
+        }
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: contain;
+        }
+      }
+    }
+    &__info-staff {
+      padding: 0 8px;
+      max-width: 500px;
+      margin: 0 auto;
+      @include mq(md) {
+        max-width: none;
+        padding: 0;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      &--title {
+        margin: 8px 0 16px 0;
+        text-transform: uppercase;
+        @include fontFamilyStlye6(600, $cp2);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        span {
+          @include fontFamilyStlye6(800, $cp2);
+          font-style: italic;
+        }
+      }
+      &--description {
+        margin: 0;
+        @include fontFamilyStlye5(400, $cp2);
+      }
+      &--img {
+        height: 250px;
+        margin: 12px 0;
+        @include mq(md) {
+          display: none;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+
+.section-container-three {
+  position: relative;
+  padding-bottom: 30px;
+  .container-skills {
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    @include mq(md) {
+      width: 88.888%;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    ul {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      padding: 20px;
+      column-gap: 2px;
+      margin-left: 16px;
+      background: $cp1;
+      width: fit-content;
+      border-radius: 0 0 15px 15px;
+      @include mq (md){
+        margin: 0;
+        border-radius: 0 0 30px 30px;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        display: block;
+        text-transform: uppercase;
+        transition: all 0.5s ease;
+        @include fontFamilyStlye6(600, $cp2);
+        &:hover{
+          font-size: 55px;
+        }
+        &.active {
+          font-size: 55px;
+          color: $cp3;
+        }
+
+      }
+    }
+  }
+  .container-skills__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 0 16px;
+    @include mq(md) {
+      width: 88.888%;
+      max-width: 1280px;
+      margin: 0 auto;
+      row-gap: 0;
+    }
+    &__element {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      &:nth-child(odd) {
+        flex-direction: row-reverse;
+        justify-content: start;
+        @include mq (md){
+        }
+        span {
+          background-color: $cp1;
+          @include fontFamilyStyle7(800, $cp2);
+        }
+      }
+      &:nth-child(even) {
+        justify-content: end;
+        @include mq (md){
+        }
+        span {
+          border: 3px solid $cp1;
+          @include fontFamilyStyle7(800, $cp1);
+        }
+      }
+      &--item {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        span {
+          border-radius: 50%;
+          display: block;
+          height: 70px;
+          width: 70px;
+          font-size: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          @include mq (md){
+            width: 110px;
+            height: 110px;
+            // font-size: 85px;
+          }
+        }
+        p {
+          margin: 0;
+          @include fontFamilyStlye8(400, $cp1);
+          @include mq (md){
+            font-weight: 600;
+          }
+        }
+      }
+      &--img {
+        display: none;
+        width: 248px;
+        height: auto;
+        @include mq(md) {
+          display: block;
+        }
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  &--aptitudes{
+    background-color: white;
+    .container-skills{
+      // margin: auto 0 auto auto;
+      @include mq (md){
+        width: 88.888%;
+        max-width: 1280px;
+        // margin: auto 0 auto auto;
+      }
+      ul{
+        background-color: $cp2;
+        margin: auto 16px auto auto;
+        @include mq (md){
+          margin: auto 0 auto auto;
+        }
+        a{
+          color: $cp1;
+        }
+      }
+    }
+    .container-skills__info{
+      &__element {
+        &:nth-child(odd) {
+          flex-direction: row;
+          justify-content: end;
+          span {
+            background-color: $cp2;
+            @include fontFamilyStyle7(800, $cp1);
+          }
+        }
+        &:nth-child(even) {
+          flex-direction: row-reverse;
+          justify-content: start;
+          @include mq (md){
+          }
+          span {
+            border: 3px solid $cp2;
+            @include fontFamilyStyle7(800, $cp2);
+          }
+        }
+        &--item {
+          p {
+            color: $cp2;
+            // @include fontFamilyStlye8(400, $cp2);
+          }
+        }
+      }
+    }
+  }
+}
