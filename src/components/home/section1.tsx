@@ -28,7 +28,9 @@ export default function Section1() {
             } catch (error) {
                 console.error("Error fetching data: " + error)
             } finally{
-                setIsLoading(false);
+                setTimeout(()=>{
+                    setIsLoading(false);
+                },500)
             }
         }
         getHomeInfo()
