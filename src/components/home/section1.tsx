@@ -14,7 +14,6 @@ export default function Section1() {
     const { i18n } = useTranslation();
     const [homeInfo, setHomeInfo] = useState<InfoHome[]>([])
     const containerH1 = useRef<HTMLDivElement>(null);
-    const [isLoading, setIsLoading] = useState(true); 
     // gsap.registerPlugin(ScrollTrigger);
     // =====================================================
 
@@ -27,10 +26,6 @@ export default function Section1() {
                 setHomeInfo(data)
             } catch (error) {
                 console.error("Error fetching data: " + error)
-            } finally{
-                setTimeout(()=>{
-                    setIsLoading(false);
-                },500)
             }
         }
         getHomeInfo()
@@ -38,33 +33,30 @@ export default function Section1() {
 
     // ============== * Animation Gsap * ================
     const textElement = containerH1.current?.querySelector<HTMLDivElement>(".section-container-one__name__text")
-    console.log('Testing..')
     useGSAP(() => {
-        if (!isLoading) {
-            if(textElement){
-                gsap.to(textElement!, {
-                    ease: "none",
-                    x: () => -(textElement.scrollWidth - window.innerWidth),
-                    scrollTrigger: {
-                        trigger: textElement,
-                        pin: containerH1.current,
-                        start: "bottom bottom",
-                        end: () => "+=" + (textElement.scrollWidth - window.innerWidth),
-                        scrub: 0.5,
-                        invalidateOnRefresh: true,
-                        markers: true,
-                    }
-                });
-            }
+        if(textElement){
+            console.log('Hace la animacion, esta dentro del hook')
+            gsap.to(textElement!, {
+                ease: "none",
+                x: () => -(textElement.scrollWidth - window.innerWidth),
+                scrollTrigger: {
+                    trigger: textElement,
+                    pin: containerH1.current,
+                    start: "bottom bottom",
+                    end: () => "+=" + (textElement.scrollWidth - window.innerWidth),
+                    scrub: 0.5,
+                    invalidateOnRefresh: true,
+                    markers: true,
+                }
+            });
+        }else{
+            console.log('No hace la animacion')
         }
     },
-        { dependencies: [isLoading, homeInfo], revertOnUpdate: true})
+        { dependencies: [homeInfo, i18n.language], revertOnUpdate: true})
     // ==================================================
-
-
     return (
         <section className="section-container-one" ref={containerH1}>
-            {isLoading ? ( <div className="loading">Loading...</div>) : (<>
             <div className="section-container-one__name" >
                 {homeInfo.map((info, index) => (
                     info.name_developer &&
@@ -83,6 +75,5 @@ export default function Section1() {
                     )
                 ))}
             </div>
-            </>)}
         </section>)
 }
