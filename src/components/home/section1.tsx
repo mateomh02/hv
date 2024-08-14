@@ -41,7 +41,7 @@ export default function Section1() {
             });
         }
     },
-        { dependencies: [homeInfo], revertOnUpdate: true})
+        { dependencies: [homeInfo, i18n.language], revertOnUpdate: true})
     // ==================================================
 
     // ============== * UseEffect * ===============
