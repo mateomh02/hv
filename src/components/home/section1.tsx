@@ -14,35 +14,9 @@ export default function Section1() {
     const { i18n } = useTranslation();
     const [homeInfo, setHomeInfo] = useState<InfoHome[]>([])
     const containerH1 = useRef<HTMLDivElement>(null);
+    const [isLoading, setIsLoading] = useState(true); 
     // gsap.registerPlugin(ScrollTrigger);
-
     // =====================================================
-
-    // ============== * Animation Gsap * ================
-    useEffect(()=>{
-        
-    }, [homeInfo])
-    const textElement = containerH1.current?.querySelector<HTMLDivElement>(".section-container-one__name__text")
-    console.log('Testing..')
-    useGSAP(() => {
-        if(textElement){
-            gsap.to(textElement!, {
-                ease: "none",
-                x: () => -(textElement.scrollWidth - window.innerWidth),
-                scrollTrigger: {
-                    trigger: textElement,
-                    pin: containerH1.current,
-                    start: "bottom bottom",
-                    end: () => "+=" + (textElement.scrollWidth - window.innerWidth),
-                    scrub: 0.5,
-                    invalidateOnRefresh: true,
-                    markers: true,
-                }
-            });
-        }
-    },
-        { dependencies: [homeInfo, i18n.language], revertOnUpdate: true})
-    // ==================================================
 
     // ============== * UseEffect * ===============
     useEffect(() => {
@@ -53,12 +27,42 @@ export default function Section1() {
                 setHomeInfo(data)
             } catch (error) {
                 console.error("Error fetching data: " + error)
+            } finally{
+                setIsLoading(false);
             }
         }
         getHomeInfo()
     }, [i18n.language])
+
+    // ============== * Animation Gsap * ================
+    const textElement = containerH1.current?.querySelector<HTMLDivElement>(".section-container-one__name__text")
+    console.log('Testing..')
+    useGSAP(() => {
+        if (!isLoading) {
+            if(textElement){
+                gsap.to(textElement!, {
+                    ease: "none",
+                    x: () => -(textElement.scrollWidth - window.innerWidth),
+                    scrollTrigger: {
+                        trigger: textElement,
+                        pin: containerH1.current,
+                        start: "bottom bottom",
+                        end: () => "+=" + (textElement.scrollWidth - window.innerWidth),
+                        scrub: 0.5,
+                        invalidateOnRefresh: true,
+                        markers: true,
+                    }
+                });
+            }
+        }
+    },
+        { dependencies: [isLoading, homeInfo], revertOnUpdate: true})
+    // ==================================================
+
+
     return (
         <section className="section-container-one" ref={containerH1}>
+            {isLoading ? ( <div className="loading">Loading...</div>) : (<>
             <div className="section-container-one__name" >
                 {homeInfo.map((info, index) => (
                     info.name_developer &&
@@ -77,5 +81,6 @@ export default function Section1() {
                     )
                 ))}
             </div>
+            </>)}
         </section>)
 }

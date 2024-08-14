@@ -15,3 +15,14 @@
 // --------- * Page * ----------
 @import "./page/home.scss";
 
+.loading{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 120px;
+}
