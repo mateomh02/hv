@@ -41,9 +41,11 @@ export default function Header() {
 
 
   const changeLanguage = (language: string) => {
+    console.log('Lenguaje '+language)
     i18n.changeLanguage(language);
     setActiveLanguage(!activeLanguage)
   };
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
