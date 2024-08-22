@@ -32,28 +32,7 @@ export default function Section1() {
     }, [i18n.language])
     // ============== * Animation Gsap * ================
     const textElement = containerH1.current?.querySelector<HTMLDivElement>(".section-container-one__name__text")
-    // useGSAP(() => {
-    //     if(textElement){
-    //         console.log('Hace la animacion, esta dentro del hook')
-    //         gsap.to(textElement!, {
-    //             ease: "none",
-    //             x: () => -(textElement.scrollWidth - window.innerWidth),
-    //             scrollTrigger: {
-    //                 trigger: textElement,
-    //                 pin: containerH1.current,
-    //                 start: "bottom bottom",
-    //                 end: () => "+=" + (textElement.scrollWidth - window.innerWidth),
-    //                 scrub: 0.5,
-    //                 invalidateOnRefresh: true,
-    //                 markers: true,
-    //             }
-    //         });
-    //     }else{
-    //         console.log('No hace la animacion')
-    //     }
-    // },
-    //     { dependencies: [homeInfo, i18n.language], revertOnUpdate: true})
-    useEffect(()=>{
+    useGSAP(() => {
         if(textElement){
             console.log('Hace la animacion, esta dentro del hook')
             gsap.to(textElement!, {
@@ -72,7 +51,8 @@ export default function Section1() {
         }else{
             console.log('No hace la animacion')
         }
-    }, [homeInfo])
+    },
+        { dependencies: [homeInfo, i18n.language], revertOnUpdate: true})
     // ==================================================
     return (
         <section className="section-container-one" ref={containerH1}>

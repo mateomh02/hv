@@ -43,7 +43,6 @@ export default function Section3() {
       <div className="container-skills__info">
         {infoSkills.map((item, index)=>(
           item.key !== 'title' ?(
-
               <Element key={`infoSkills-${index}`} name={`item-${index}`} className="container-skills__info__element element">
                 <div className="container-skills__info__element--item">
                   <span>{item.value.split('-')[0]}</span><p>{item.value.split('-')[1]}</p>

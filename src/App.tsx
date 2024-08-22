@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Portafolio from "./pages/portafolio";
 import Experiencia from "./pages/experiencia";
 import NotFound from './pages/404'
+import DescriptionEx from "./pages/descriptionEx";
 import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
 // import './App.scss'
@@ -24,6 +25,7 @@ function App() {
         <Route path="" element={<Layout/>}>
           <Route path="/" element={<Home/>}/>
           <Route path="/experiencia" element={<Experiencia/>}/>
+          <Route path="/portafolio/:title" element={<DescriptionEx/>}/>
           <Route path="/portafolio" element={<Portafolio/>}/>
           <Route path="*" element={<NotFound/>}/>
         </Route>

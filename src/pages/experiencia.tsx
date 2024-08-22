@@ -1,3 +1,9 @@
+import Section1 from "../components/experience/section1"
+
 export default function Experiencia(){
-    return(<h1>Experiencia</h1>)
+    return(
+        <div className="container-experiencia">
+            <Section1/>
+        </div>
+    )
 }
