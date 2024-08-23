@@ -1,3 +1,5 @@
+import Description from "../components/portfolio/description"
+
 export default function DescriptionEx(){
-    return (<h1>Interna</h1>)
+    return (<Description/>)
 }
