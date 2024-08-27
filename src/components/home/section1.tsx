@@ -9,6 +9,25 @@ interface InfoHome {
     name_developer: string,
     url_img: string
 }
+
+async function fetchHomeInfo(language: string) {
+    let status = 'pending';
+    let result: any;
+    const promise = await fetch(`../json/home/${language}-home.json`)
+        .then(response => response.json())
+        .then(data => {
+            status = 'success';
+            result = data;
+            return result
+        })
+        .catch(error => {
+            status = 'error';
+            result = error;
+            return result
+        });
+
+}
+
 export default function Section1() {
     // ============== * Variable breakdown * ===============
     const { i18n } = useTranslation();
@@ -16,7 +35,7 @@ export default function Section1() {
     const containerH1 = useRef<HTMLDivElement>(null);
     // gsap.registerPlugin(ScrollTrigger);
     // =====================================================
-
+    console.log(fetchHomeInfo(i18n.language))
     // ============== * UseEffect * ===============
     useEffect(() => {
         async function getHomeInfo() {
@@ -30,10 +49,11 @@ export default function Section1() {
         }
         getHomeInfo()
     }, [i18n.language])
+
     // ============== * Animation Gsap * ================
     const textElement = containerH1.current?.querySelector<HTMLDivElement>(".section-container-one__name__text")
     useGSAP(() => {
-        if(textElement){
+        if (textElement) {
             console.log('Hace la animacion, esta dentro del hook')
             gsap.to(textElement!, {
                 ease: "none",
@@ -48,31 +68,33 @@ export default function Section1() {
                     markers: true,
                 }
             });
-        }else{
+        } else {
             console.log('No hace la animacion')
         }
     },
-        { dependencies: [homeInfo, i18n.language], revertOnUpdate: true})
+        { dependencies: [homeInfo, i18n.language], revertOnUpdate: true })
     // ==================================================
     return (
-        <section className="section-container-one" ref={containerH1}>
-            <div className="section-container-one__name" >
-                {homeInfo.map((info, index) => (
-                    info.name_developer &&
-                    <h1 key={`section-one-${index}`} className="section-container-one__name__text">{info.name_developer.split(/\/(.*?)\//g).map((part, i) => i % 2 === 1 ? (
-                        <span key={`key-span-${i}`}>{part}</span>
-                    ) : (
-                        part
-                    ))} <span></span></h1>
-                ))}
+        // <section className="section-container-one" ref={containerH1}>
+        //     <div className="section-container-one__name" >
+        //         {homeInfo.map((info, index) => (
+        //             info.name_developer &&
+        //             <h1 key={`section-one-${index}`} className="section-container-one__name__text">{info.name_developer.split(/\/(.*?)\//g).map((part, i) => i % 2 === 1 ? (
+        //                 <span key={`key-span-${i}`}>{part}</span>
+        //             ) : (
+        //                 part
+        //             ))} <span></span></h1>
+        //         ))}
 
-            </div>
-            <div className="section-container-one__img">
-                {homeInfo.map((info, index) => (
-                    info.url_img && (
-                        <img key={`img--${index}`} src={info.url_img} alt="logo" />
-                    )
-                ))}
-            </div>
-        </section>)
+        //     </div>
+        //     <div className="section-container-one__img">
+        //         {homeInfo.map((info, index) => (
+        //             info.url_img && (
+        //                 <img key={`img--${index}`} src={info.url_img} alt="logo" />
+        //             )
+        //         ))}
+        //     </div>
+        // </section>
+        <section className="section-container-one" ref={containerH1}><div className="section-container-one__name"><h1 className="section-container-one__name__text">MATEO HERNANDEZ <span>- DEVELOPER -</span> FRONT-<span>END</span> <span></span></h1></div><div className="section-container-one__img"><img src="../img/img-developer.png" alt="logo"/></div></section>
+        )
 }

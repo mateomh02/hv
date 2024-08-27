@@ -116,6 +116,17 @@ $mediaQuerys: (
         line-height: 45px;
     }
 }
+@mixin fontFamilyStlye9($weight, $color){
+    font-family: $fp1;
+    font-weight: $weight;
+    color: $color;
+    font-size: 40px;
+    line-height: 48px;
+    @include mq (md){
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
 
 @mixin fontBanner($color){
     font-size: 40vw;

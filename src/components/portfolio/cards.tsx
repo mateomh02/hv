@@ -27,7 +27,9 @@ export default function PortafolioCards() {
                 {infoPort.map((item, index) => (
                     <li key={`cards-number--${index}`} className="container-portfolio__cards">
                         <div className="container-portfolio__cards--front">
-                            <img src={item.image} alt="img" />
+                            <div className="container-portfolio__cards--front--img">
+                                <img src={item.image} alt="img" />  
+                            </div>
                         </div>
                         <div className="container-portfolio__cards--back">
                             {/* <p>{item.description}</p> */}

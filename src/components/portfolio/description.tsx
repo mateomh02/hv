@@ -6,6 +6,7 @@ interface infoPortfolio {
     title: string
     image: string,
     description: string
+    link: string
 }
 export default function Description() {
     const param = useParams()
@@ -20,17 +21,22 @@ export default function Description() {
         }
         getInfo()
     }, [i18n.language])
-    if(!infoPort) return (<h1>No se encontro informacion existente</h1>)
+    if (!infoPort) return (<h1>No se encontro informacion existente</h1>)
     return (
         <div className="container-description-work">
-            <div className="container-description-work__img">
-                <img src={infoPort.image} alt="" />
-            </div>
-            <div className="container-description-work__title">
-                <h1>{infoPort.title}</h1>
-            </div>
-            <div className="container-description-work__description">
-                <p>{infoPort.description}</p>
+            <div className="container-description-work__content">
+                <div className="container-description-work__img">
+                    <img src={infoPort.image} alt="" />
+                </div>
+                <div className="container-description-work__title">
+                    <h1>{infoPort.title}</h1>
+                </div>
+                <div className="container-description-work__description">
+                    <p>{infoPort.description}</p>
+                </div>
+                <div className="container-description-work__link">
+                    <a href={infoPort.link}>{i18n.language === 'es' ? 'Ver mas' : 'View more'}</a>
+                </div>
             </div>
         </div>
     )

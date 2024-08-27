@@ -1,0 +1,80 @@
+.container-description-work{
+    background-color: $cp1;
+    padding-top: 24px;
+    @include mq (md){
+        padding: 0;
+    }
+    &__content{
+        @include mq (md){
+            padding: 0;
+            max-width: 1280px;
+            width: 88.888%;
+            margin: 0 auto;
+        }
+    }
+    &__img{
+        background-color: $cp2;
+        width: 80%;
+        margin: 0 auto;
+        height: 320px;
+        padding: 32px;
+        border-radius: 30px;
+        @include mq (md){
+            border-radius: 0 0 40px 40px;
+            padding: 0 0 30px 0;
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            @include mq (md){
+                width: 350px;
+                margin: 0 auto;
+            }
+        }
+    }
+    &__title{
+        h1{
+            margin: 8px 0;
+            text-align: center;
+            @include fontFamilyStlye9(700, $cp2);
+            @include mq (md){
+                margin: 20px 0;
+            }
+        }
+    }
+    &__description{
+        padding: 0 16px;
+        p{
+            margin: 0;
+            @include fontFamilyStlye5(400, $cp2)
+        }
+    }
+    &__link{
+        padding: 15px 0;
+        @include mq(md){
+            padding: 30px 0;
+        }
+        &:hover{
+            a{
+                background-color: $cp2;
+                color: $cp1;
+            }
+            
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            padding: 10px 15px;
+            border-radius: 50px;
+            display: block;
+            border: 1px solid $cp2;
+            width: fit-content;
+            margin: 0 auto;
+            transition: all 0.5s ease;
+            @include fontFamilyStlye2(500, $cp2)
+        }
+    }
+}
