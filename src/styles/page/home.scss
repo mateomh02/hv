@@ -146,6 +146,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+    margin-bottom: 30px;
     @include mq(md) {
       width: 88.888%;
       max-width: 1280px;
@@ -187,7 +188,7 @@
   .container-skills__info {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 50px;
     margin: 0 16px;
     @include mq(md) {
       width: 88.888%;
@@ -227,12 +228,14 @@
           display: block;
           height: 70px;
           width: 70px;
+          min-width: 70px;
           font-size: 60px;
           display: flex;
           align-items: center;
           justify-content: center;
           @include mq (md){
             width: 110px;
+            min-width: 110px;
             height: 110px;
             // font-size: 85px;
           }

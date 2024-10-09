@@ -13,26 +13,26 @@
     {
         "section_skills":[
             { "key": "title", "value": "S-k-i-l-l-s" },
-            { "key": "one_letter", "value": "S-Lorem ipsum dolor si" },
-            { "key": "two_letter", "value": "K-Lorem ipsum dolor si" },
-            { "key": "three_letter", "value": "I-Lorem ipsum dolor si" },
-            { "key": "four_letter", "value": "L-Lorem ipsum dolor si" },
-            { "key": "five_letter", "value": "L-Lorem ipsum dolor si" },
-            { "key": "six_letter", "value": "S-Lorem ipsum dolor si" }
+            { "key": "one_letter", "value": "S-tyling expertise with Sass and CSS for responsive designs" },
+            { "key": "two_letter", "value": "K-nowledge of Next.js to build server-rendered applications" },
+            { "key": "three_letter", "value": "I-nteraction and component development using React and JavaScript" },
+            { "key": "four_letter", "value": "L-everage GitHub for version control and collaborative coding" },
+            { "key": "five_letter", "value": "L-inux terminal proficiency for efficient development workflow" },
+            { "key": "six_letter", "value": "S-eamless content management with Drupal and API REST integrations" }
         ]
     },
     {
         "section_aptitudes":[
             { "key": "title_aptitudes", "value": "A-p-t-i-t-u-d-e-s" },
-            { "key": "one_letter_aptitudes", "value": "A-Lorem ipsum dolor si" },
-            { "key": "two_letter_aptitudes", "value": "P-Lorem ipsum dolor si" },
-            { "key": "three_letter_aptitudes", "value": "T-Lorem ipsum dolor si" },
-            { "key": "four_letter_aptitudes", "value": "I-Lorem ipsum dolor si" },
-            { "key": "five_letter_aptitudes", "value": "T-Lorem ipsum dolor si" },
-            { "key": "six_letter_aptitudes", "value": "U-Lorem ipsum dolor si" },
-            { "key": "seven_letter_aptitudes", "value": "D-Lorem ipsum dolor si" },
-            { "key": "eight_letter_aptitudes", "value": "E-Lorem ipsum dolor si" },
-            { "key": "nine_letter_aptitudes", "value": "S-Lorem ipsum dolor si" }
+            { "key": "one_letter_aptitudes", "value": "A-ssertive Communication to express ideas clearly" },
+            { "key": "two_letter_aptitudes", "value": "P-roactive Problem-Solving in complex situations" },
+            { "key": "three_letter_aptitudes", "value": "T-eamwork to build synergy and reach goals" },
+            { "key": "four_letter_aptitudes", "value": "I-nitiative to learn and improve with high Adaptability" },
+            { "key": "five_letter_aptitudes", "value": "T-rustworthy and committed to achieving excellence" },
+            { "key": "six_letter_aptitudes", "value": "U-nderstanding of diverse perspectives for effective collaboration" },
+            { "key": "seven_letter_aptitudes", "value": "D-edication and a strong sense of Responsibility" },
+            { "key": "eight_letter_aptitudes", "value": "E-mpathy to connect and work harmoniously with others" },
+            { "key": "nine_letter_aptitudes", "value": "S-olution oriented mindset to drive results" }
         ]
     }
 ]

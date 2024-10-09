@@ -13,31 +13,31 @@
     {
         "section_skills":[
             { "key": "title", "value": "H-a-b-i-l-i-d-a-d-e-s" },
-            { "key": "one_letter", "value": "H-ábil para manejar JavaScript" },
-            { "key": "two_letter", "value": "A-daptabilidad al cambio" },
-            { "key": "three_letter", "value": "B-uen trabajo en equipo" },
-            { "key": "four_letter", "value": "I-ngenio y creación en el UIX" },
-            { "key": "five_letter", "value": "L-ibre de las limitaciones buscando soluciones optimas." },
-            { "key": "six_letter", "value": "I-nnovación en la implementación de nuevas tecnologías para los proyectos" },
-            { "key": "seven_letter", "value": "D-edicación, compromiso y perseverancia en mi trabajo." },
-            { "key": "eight_letter", "value": "A-gilidad para responder a los cambios y nuevos desafios" },
-            { "key": "nine_letter", "value": "D-iciplina para alcanzar mis logros" },
-            { "key": "ten_letter", "value": "E-Lorem ipsum dolor si" },
-            { "key": "eleven_letter", "value": "S-Lorem ipsum dolor si" }
+            { "key": "one_letter", "value": "H-erramientas como GitHub para un control de versiones efectivo" },
+            { "key": "two_letter", "value": "A-gilidad en el diseño con Sass y un manejo fluido de CSS" },
+            { "key": "three_letter", "value": "B-ases de HTML y JavaScript para construir aplicaciones interactivas." },
+            { "key": "four_letter", "value": "I-ntegración de React para crear interfaces de usuario dinámicas" },
+            { "key": "five_letter", "value": "L-ógica aplicada en el desarrollo de aplicaciones con Next.js" },
+            { "key": "six_letter", "value": "I-nnovación en las animaciones con GSAP" },
+            { "key": "seven_letter", "value": "D-esarrollo de aplicaciones web con Drupal y Wordpress en el Front-End" },
+            { "key": "eight_letter", "value": "A-dministración de proyectos usando Scrum para mantener el enfoque" },
+            { "key": "nine_letter", "value": "D-ominio de la Terminal Linux para flujos de trabajo eficientes" },
+            { "key": "ten_letter", "value": "E-stilos con preprocesadores como Sass y framewroks como Boostrap" },
+            { "key": "eleven_letter", "value": "S-eguimiento continuo para mantener buenas prácticas en código" }
         ]
     },
     {
         "section_aptitudes":[
             { "key": "title_aptitudes", "value": "A-p-t-i-t-u-d-e-s" },
-            { "key": "one_letter_aptitudes", "value": "A-daptabilidad al cambio" },
-            { "key": "two_letter_aptitudes", "value": "P-Lorem ipsum dolor si" },
-            { "key": "three_letter_aptitudes", "value": "T-Lorem ipsum dolor si" },
-            { "key": "four_letter_aptitudes", "value": "I-nnovación en la implementación de nuevas tecnologías para los proyectos" },
-            { "key": "five_letter_aptitudes", "value": "T-Lorem ipsum dolor si" },
-            { "key": "six_letter_aptitudes", "value": "U-Lorem ipsum dolor si" },
-            { "key": "seven_letter_aptitudes", "value": "D-edicación, compromiso y perseverancia en mi trabajo" },
-            { "key": "eight_letter_aptitudes", "value": "E-mpatía y respeto por los demas" },
-            { "key": "nine_letter_aptitudes", "value": "S-Lorem ipsum dolor si" }
+            { "key": "one_letter_aptitudes", "value": "A-ltamente eficiente en la Resolución de Problemas" },
+            { "key": "two_letter_aptitudes", "value": "P-roactividad en cada tarea y fuerte Compromiso" },
+            { "key": "three_letter_aptitudes", "value": "T-rabajo en equipo para alcanzar objetivos comunes" },
+            { "key": "four_letter_aptitudes", "value": "I-nnovación y disposición para aprender con Aprendibilidad" },
+            { "key": "five_letter_aptitudes", "value": "T-ransmitir ideas de manera clara con Comunicación Asertiva" },
+            { "key": "six_letter_aptitudes", "value": "U-nión y colaboración en ambientes diversos" },
+            { "key": "seven_letter_aptitudes", "value": "D-estreza para enfrentar cambios con Adaptación al cambio" },
+            { "key": "eight_letter_aptitudes", "value": "E-mpatía y respeto en las relaciones interpersonales"},
+            { "key": "nine_letter_aptitudes", "value": "S-uperación constante a través de la mejora continua" }
         ]
     }
 ]
