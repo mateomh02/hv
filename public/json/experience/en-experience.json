@@ -1,20 +1,20 @@
 [
     {
-        "date": "2017-2019",
-        "title": "PUBLILASER PATMAR1",
-        "description": "Durante mi experiencia laboral, desarrollé habilidades en el uso de Corel Draw, donde aprendí a crear diversos diseños gráficos, incluyendo logotipos, facturas, avisos publicitarios y tarjetas de presentación. Este proceso me permitió adquirir conocimientos en la manipulación de herramientas de diseño y en la creación de elementos visuales de alta calidad, siempre adaptándome a las necesidades del cliente y enfocándome en la estética y funcionalidad del proyecto",
-        "img": "/img/empresa1.png"
+        "date": "2023-Act",
+        "title": "Web Digital Ark",
+        "description": "At Web Digital Ark, I work as a front-end developer, collaborating in projects for high profile clients such as Nissan, Stella Artois, Cencosud, Enel, Universidad Uniminuto and IICA. My work includes the development and maintenance of Drupal and WordPress websites, where I am in charge of configuration, customization and basic maintenance, always focused on providing an optimal user experience and reliable performance. In addition, I support projects in React, improving usability and creating interfaces that are visually appealing and functional. To facilitate collaboration, I use GitHub for version control, which ensures an orderly and efficient team workflow. I work in a Linux environment, which allows me to develop fluidly. I also employ Sass to optimize CSS and perform REST API integrations, allowing for robust cross-platform data communication. In specific projects, I set up development environments with Docker and use tools like PHP and JavaScript to implement additional functionalities.",
+        "img": "/img/webdigitalark.png"
     },
     {
-        "date": "2017-2019",
-        "title": "PUBLILASER PATMAR2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, su",
-        "img": "/img/empresa1.png"
+        "date": "2022-2023",
+        "title": "Fundación Santa Fe de Bogotá",
+        "description": "At Fundación Santa Fe, I performed preventive and corrective maintenance of biomedical equipment classified as I, IIa, IIb and III. This work covered a wide range of hospital services, including surgery, hospitalization, pediatrics, maternity, outpatient and nuclear medicine. As part of my responsibilities, I continuously monitored the maintenance of diagnostic imaging equipment and ensured that biomedical equipment was in optimal condition for use in surgical procedures through a process of verification and preparation. In addition, I used specialized software for the planning, execution and closure of maintenance, which allowed me to manage the processes in an efficient and documented manner. I was also responsible for the maintenance of laboratory equipment, ensuring its accuracy and functionality to support reliable clinical diagnostics and analysis. This work oriented to quality control contributed positively to maintain safety and effectiveness standards in the hospital services of Fundación Santa Fe.",
+        "img": "/img/santafelogo.png"
     },    
     {
         "date": "2017-2019",
-        "title": "PUBLILASER PATMAR3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, su",
+        "title": "PUBLILASER PATMAR",
+        "description": "At Publilaser Patmar, I played a role in the creation and management of advertising graphic content, ranging from the design of cards, invoices and advertisements to the follow-up of printing processes and preparation of products for final delivery. My tasks included the creation of various visual pieces, such as newsletters, calendars and other promotional materials. To carry out these tasks, I used Corel Draw as my main tool, allowing me to create designs. In addition, I operated specialized paper cutting machinery. I also participated in the creation of audiovisual content that supported and strengthened the advertising campaigns, ensuring a visually attractive and effective message.",
         "img": "/img/empresa1.png"
     }
 ]

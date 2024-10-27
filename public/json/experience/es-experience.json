@@ -1,20 +1,20 @@
 [
     {
-        "date": "2017-2019",
-        "title": "PUBLILASER PATMAR",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, su",
-        "img": "/img/empresa1.png"
+        "date": "2023-Act",
+        "title": "Web Digital Ark",
+        "description": "En Web Digital Ark, desempeño el rol de desarrollador front-end, colaborando en proyectos para clientes de alto perfil como Nissan, Stella Artois, Cencosud, Enel, la Universidad Uniminuto y el IICA. Mi trabajo incluye el desarrollo y mantenimiento de sitios web en Drupal y WordPress, donde me encargo de la configuración, personalización y mantenimiento básico, siempre enfocado en ofrecer una experiencia de usuario óptima y un rendimiento confiable. Además, apoyo proyectos en React, mejorando la usabilidad y creando interfaces que resulten visualmente atractivas y funcionales. Para facilitar la colaboración, utilizo GitHub para el control de versiones, lo que asegura un flujo de trabajo ordenado y eficiente en equipo. Trabajo en un entorno Linux, lo que me permite desarrollar de forma fluida. También empleo Sass para optimizar el CSS y realizo integraciones con REST API, permitiendo una comunicación de datos sólida entre plataformas. En proyectos específicos, configuro entornos de desarrollo con Docker y uso herramientas como PHP y JavaScript para implementar funcionalidades adicionales",
+        "img": "/img/webdigitalark.png"
     },
     {
-        "date": "2017-2019",
-        "title": "PUBLILASER PATMAR",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, su",
-        "img": "/img/empresa1.png"
+        "date": "2022-2023",
+        "title": "Fundación Santa Fe de Bogotá",
+        "description": "En la Fundación Santa Fe, desempeñé la ejecución de mantenimientos preventivos y correctivos de equipos biomédicos clasificados como I, IIa, IIb y III. Este trabajo cubrió una amplia gama de servicios hospitalarios, incluyendo cirugía, hospitalización, pediatría, maternidad, consulta externa y medicina nuclear. Como parte de mis responsabilidades, realicé seguimiento continuo al mantenimiento de los equipos de imágenes diagnósticas y me aseguré de que los equipos biomédicos estuvieran en óptimas condiciones para su uso en procedimientos quirúrgicos, mediante un proceso de verificación y preparación. Además, empleé software especializado para la planificación, ejecución y cierre de los mantenimientos, lo que me permitió gestionar los procesos de manera eficiente y documentada. También me encargué del mantenimiento de equipos de laboratorio, asegurando su precisión y funcionalidad para apoyar en diagnósticos y análisis clínicos confiables. Esta labor orientada al control de calidad contribuyó de manera positiva  a mantener estándares de seguridad y efectividad en los servicios hospitalarios de la Fundación Santa Fe.",
+        "img": "/img/santafelogo.png"
     },    
     {
         "date": "2017-2019",
         "title": "PUBLILASER PATMAR",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, su",
+        "description": "En Publilaser Patmar, desempeñé un rol en la creación y gestión de contenido gráfico publicitario, abarcando desde el diseño de tarjetas, facturas y avisos hasta el seguimiento de los procesos de impresión y preparación de productos para su entrega final. Mis tareas incluyeron la creación de piezas visuales variadas, tales como boletines, calendarios y otros materiales de promoción. Para llevar a cabo estas labores, utilicé Corel Draw como herramienta principal, permitiéndome crear  diseños. Además, operé maquinaria especializada en el corte de papel,. También participé en la creación de contenido audiovisual que apoyó y fortaleció las campañas publicitarias, garantizando un mensaje visualmente atractivo y efectivo.",
         "img": "/img/empresa1.png"
     }
 ]

@@ -40,7 +40,7 @@
     backface-visibility: hidden;
     cursor: pointer;
     @include mq(md) {
-      flex: 1 1 30%;
+      flex: 0 0 32%;
       max-width: none;
     }
     &:hover {

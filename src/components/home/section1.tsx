@@ -94,6 +94,6 @@ export default function Section1() {
         //         ))}
         //     </div>
         // </section>
-        <section className="section-container-one" ref={containerH1}><div className="section-container-one__name"><h1 className="section-container-one__name__text">MATEO HERNANDEZ <span>- DEVELOPER -</span> FRONT-<span>END</span> <span></span></h1></div><div className="section-container-one__img"><img src="../img/img-developer.png" alt="logo"/></div></section>
+        <section className="section-container-one" ref={containerH1}><div className="section-container-one__name"><h1 className="section-container-one__name__text">MATEO HERNANDEZ <span>- DEVELOPER -</span> FRONT-<span>END</span> <span></span></h1></div><div className="section-container-one__img"><img src="../img/Mateo-2.png" alt="logo"/></div></section>
         )
 }

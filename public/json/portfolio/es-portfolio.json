@@ -32,7 +32,13 @@
     },
     {
         "title": "Nissan",
-        "image": "/img/nissan.png",
+        "image": "/img/nissan1.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation  ullamco laboris nisi ut aliquipex ea commodo consequat.  Duis aute i",
+        "link": "#"   
+    },
+    {
+        "title": "Universidad Uniminuto",
+        "image": "/img/uniminuto3.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation  ullamco laboris nisi ut aliquipex ea commodo consequat.  Duis aute i",
         "link": "#"   
     }

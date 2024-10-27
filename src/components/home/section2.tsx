@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import { useTranslation } from 'react-i18next';
-
+// import aos from 'AOS'
 interface InfoHome {
     title: string,
     url_img_left: string,
@@ -22,7 +22,7 @@ export default function Section2() {
         }
         getHomeInfo()
     }, [i18n.language])
-    
+    // AOS.init();
     return (<section className="section-container-two">
         <div className="section-container-two-wrapper">
             <div className="section-container-two-wrapper__rol">
