@@ -33,7 +33,7 @@ export default function PortafolioCards() {
                         </div>
                         <div className="container-portfolio__cards--back">
                             {/* <p>{item.description}</p> */}
-                            <Link to={`/portafolio/${item.title}`} className="button" type="button">Ver mas</Link>
+                            <Link to={`/portafolio/${item.title}`} className="button" type="button">{i18n.language === 'es' ? 'Ver mas' : 'View more'}</Link>
                         </div>
                     </li>
 

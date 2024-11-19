@@ -1,39 +1,50 @@
 [
-    
+    {
+        "title": "Vanti",
+        "image": "/img/vanti.png",
+        "description": "This site was developed with Next.js, optimized specifically for interactive screen viewing. The design is fully responsive, automatically adapting to different screen sizes. Custom animations were implemented and various APIs were integrated to enhance the site's functionality. By making the most of Next.js tools such as routing and optimized image loading, the site offers exceptional performance and a smooth, interactive user experience.",
+        "link": "https://vanti-camacol.com/"   
+    },
+    {
+        "title": "Cerveza Leyendas",
+        "image": "/img/leyendas.png",
+        "description": "This site was developed using Drupal along with the Site Studio tool. It's a very interesting project due to its implementation of parallax effects and a fully responsive design that adjusts automatically to screen sizes. Various animations were created to meet the client's expectations and enhance the user experience.",
+        "link": "https://leyendasdeorigenchl.abinbev.acsitefactory.com/"   
+    },
+    {
+        "title": "Universidad Uniminuto",
+        "image": "/img/uniminuto3.png",
+        "description": "This project was a freelance job developed under tight deadlines for the Uniminuto school fair. The platform included features such as registration and login, as well as the ability to load and display courses with detailed information for each one. The design was fully responsive, ensuring accessibility from any device. The project was developed in Drupal, and my responsibility was to handle all front-end development, ensuring that the design was functional and aligned with the client's requirements.",
+        "link": "https://dev-uniminuto.pantheonsite.io/"   
+    },
+    {
+        "title": "Red-Cooperantes",
+        "image": "/img/redCo.png",
+        "description": "On this page, I worked with Drupal, focusing on applying carefully structured styles according to the design provided in Figma. While I did not develop the mega menu, I ensured that the applied styles were consistent and compatible with its functionality, allowing for smooth editing and management without compromising the design. I also integrated animations and set up lazy loading for videos, optimizing site performance. The work was done with a responsive approach, ensuring a consistent visual and functional experience across devices.",
+        "link": "https://dev-conexco.pantheonsite.io/"    
+    },
+    {
+        "title": "Nissan",
+        "image": "/img/nissan1.jpg",
+        "description": "In this project, I worked with the WordPress CMS, handling 80% of the backend development and 100% of the front-end. It was an interesting challenge as I implemented the Google Maps API, allowing the client to add locations through the admin panel where users could see, in real-time, the nearest electric car charging station from their current location. Additionally, I developed key functionalities such as login, user registration, password recovery, and ensured a fully responsive and adaptable design for optimal experience on any device.",
+        "link": "https://dev-proyecto-nissan.pantheonsite.io/"   
+    },
+    {
+        "title": "Enel",
+        "image": "/img/enel.png",
+        "description": "On this page, I worked with Drupal, focusing on customizing and styling the interface according to the provided design. I implemented a self-directing menu system to improve navigation and ensured a fully responsive design, guaranteeing an optimal experience on any device size.",
+        "link": "https://dev-enel.pantheonsite.io/"    
+    },
     {
         "title": "Stella Artrois",
         "image": "/img/stella.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation  ullamco laboris nisi ut aliquipex ea commodo consequat.  Duis aute i",
-        "link": "#"    
+        "description": "In this project, I worked with Site Studio, a key tool that allowed me to efficiently develop the entire front-end of the application. I implemented a fully responsive design, ensuring the interface adapted perfectly to different devices and screen sizes. Additionally, I integrated dynamic animations to enhance the user experience and designed interactive sliders to provide smooth and engaging navigation through the content.",
+        "link": "http://stellaartroiscl20240228.abinbev.acsitefactory.com/"    
     },
     {
         "title": "Cencosud",
         "image": "/img/cencosud.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation  ullamco laboris nisi ut aliquipex ea commodo consequat.  Duis aute i",
-        "link": "#"    
-    },
-    {
-        "title": "Enel",
-        "image": "/img/stella.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation  ullamco laboris nisi ut aliquipex ea commodo consequat.  Duis aute i",
-        "link": "#"    
-    },
-    {
-        "title": "Red-Cooperantes",
-        "image": "/img/stella.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation  ullamco laboris nisi ut aliquipex ea commodo consequat.  Duis aute i",
-        "link": "#"    
-    },
-    {
-        "title": "SCG",
-        "image": "/img/stella.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation  ullamco laboris nisi ut aliquipex ea commodo consequat.  Duis aute i",
-        "link": "#"    
-    },
-    {
-        "title": "Nissan",
-        "image": "/img/stella.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation  ullamco laboris nisi ut aliquipex ea commodo consequat.  Duis aute i",
-        "link": "#"   
+        "description": "On this page, I worked on front-end development using WordPress, implementing custom functions in both JavaScript and CSS within the theme. I designed a fully responsive theme, ensuring the page adapted optimally to any device.",
+        "link": "https://ganapuntoscencosud.co/"    
     }
 ]

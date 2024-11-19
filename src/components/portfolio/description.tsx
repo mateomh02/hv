@@ -35,7 +35,7 @@ export default function Description() {
                     <p>{infoPort.description}</p>
                 </div>
                 <div className="container-description-work__link">
-                    <a href={infoPort.link}>{i18n.language === 'es' ? 'Ver mas' : 'View more'}</a>
+                    <a href={infoPort.link}>{i18n.language === 'es' ? 'Link' : 'Link'}</a>
                 </div>
             </div>
         </div>
