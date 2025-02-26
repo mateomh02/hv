@@ -1,5 +1,11 @@
 [
     {
+        "title": "Alcanos",
+        "image": "/img/alcanos-logo.png",
+        "description": "This project was developed in CMD Drupal, where I was responsible for the front-end development of the website. Integrations with REST APIs and Google Maps were implemented in several key sections, such as <a href='https://alcanosesp.com/acerca-de-nosotros/cobertura'><strong>Coverage</strong></a>, <a href='https://alcanosesp.com/experiencia-al-cliente/simulador-de-consumo'><strong>Consumption Simulator</strong></a>, <a href='https://alcanosesp.com/experiencia-al-cliente/oficinas-de-servicio-al-cliente'><strong>Customer Service Offices</strong></a>. For the code structure, I used the BEM methodology along with SASS as a style preprocessor. Additionally, the project was managed under the SCRUM methodology, using JIRA for task organization and Pantheon for repository management on GitHub",
+        "link": "https://alcanosesp.com/"   
+    },
+    {
         "title": "Vanti",
         "image": "/img/vanti.png",
         "description": "This site was developed with Next.js, optimized specifically for interactive screen viewing. The design is fully responsive, automatically adapting to different screen sizes. Custom animations were implemented and various APIs were integrated to enhance the site's functionality. By making the most of Next.js tools such as routing and optimized image loading, the site offers exceptional performance and a smooth, interactive user experience.",

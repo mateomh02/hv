@@ -47,7 +47,7 @@
     }
     &__description{
         padding: 0 16px;
-        p{
+        p,a{
             margin: 0;
             @include fontFamilyStlye5(400, $cp2)
         }

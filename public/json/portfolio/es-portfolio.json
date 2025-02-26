@@ -1,50 +1,56 @@
 [
     {
+        "title": "Alcanos",
+        "image": "/img/alcanos-logo.png",
+        "description": "Este proyecto fue desarrollado en CMD Drupal, donde fui responsable del desarrollo front-end del sitio web. Se implementaron integraciones con API REST y Google Maps en varias secciones clave, como: <a href='https://alcanosesp.com/acerca-de-nosotros/cobertura'><strong>Cobertura</strong></a>,  <a href='https://alcanosesp.com/experiencia-al-cliente/simulador-de-consumo'><strong>Simulador de consumo</strong></a>, <a href='https://alcanosesp.com/experiencia-al-cliente/oficinas-de-servicio-al-cliente'><strong>Oficinas de servicio al cliente</strong></a>. Para la estructura del código, utilicé la metodología BEM junto con SASS como preprocesador de estilos. Además, el proyecto se gestionó bajo la metodología SCRUM, utilizando JIRA para la organización de tareas y Pantheon para el manejo de repositorios en GitHub.",
+        "link": "https://alcanosesp.com/"
+    },
+    {
         "title": "Vanti",
         "image": "/img/vanti.png",
         "description": "Este sitio fue desarrollado con Next.js, optimizado especialmente para la visualización en pantallas interactivas. El diseño es completamente responsive, adaptándose automáticamente a diferentes tamaños de pantalla. Se implementaron animaciones personalizadas y se integraron diversas APIs para enriquecer la funcionalidad del sitio. Aprovechando al máximo las herramientas de Next.js, como su sistema de enrutamiento y la carga optimizada de imágenes, el sitio ofrece un rendimiento excepcional y una experiencia de usuario fluida e interactiva.",
-        "link": "https://vanti-camacol.com/"   
+        "link": "https://vanti-camacol.com/"
     },
     {
         "title": "Cerveza Leyendas",
         "image": "/img/leyendas.png",
         "description": "Este sitio fue desarrollado utilizando Drupal junto con la herramienta Site Studio. Es un proyecto muy interesante debido a su implementación de efectos parallax y diseño completamente responsive, que se adapta automáticamente según el tamaño de la pantalla. Se crearon diversas animaciones que cumplieron con las expectativas del cliente y mejoraron la experiencia del usuario.",
-        "link": "https://leyendasdeorigenchl.abinbev.acsitefactory.com/"   
+        "link": "https://leyendasdeorigenchl.abinbev.acsitefactory.com/"
     },
     {
         "title": "Universidad Uniminuto",
         "image": "/img/uniminuto3.png",
         "description": "Este proyecto fue un trabajo freelance desarrollado contra reloj para la feria de colegios de Uniminuto. La plataforma incluyó funcionalidades como registro e inicio de sesión, además de la carga y visualización de cursos con información detallada de cada uno. El diseño fue completamente responsive, asegurando accesibilidad desde cualquier dispositivo. El proyecto se desarrolló en Drupal, y mi responsabilidad fue realizar todo el front-end, garantizando que el diseño fuera funcional y estuviera alineado con los requerimientos del cliente.",
-        "link": "https://dev-uniminuto.pantheonsite.io/"   
+        "link": "https://dev-uniminuto.pantheonsite.io/"
     },
     {
         "title": "Red-Cooperantes",
         "image": "/img/redCo.png",
         "description": "En esta página trabajé con Drupal, encargándome de aplicar estilos cuidadosamente estructurados según el diseño proporcionado en Figma. Aunque no desarrollé el mega menú, me aseguré de que los estilos aplicados fueran consistentes y compatibles con su funcionalidad, permitiendo una edición y administración fluida sin comprometer el diseño. También integré animaciones y configuré cargas diferidas para videos, optimizando el rendimiento del sitio. Todo el trabajo se realizó bajo un enfoque responsive, garantizando una experiencia visual y funcional coherente en cualquier dispositivo",
-        "link": "https://dev-conexco.pantheonsite.io/"    
+        "link": "https://dev-conexco.pantheonsite.io/"
     },
     {
         "title": "Nissan",
         "image": "/img/nissan1.jpg",
         "description": "En este proyecto trabajé con el CMS WordPress, asumiendo el 80% del desarrollo en el backend y el 100% en el front-end. Fue un desafío interesante, ya que implementé la API de Google Maps para que el cliente pudiera, desde la administración, agregar ubicaciones donde los usuarios pudieran visualizar, en tiempo real y desde su ubicación actual, el punto más cercano para cargar sus autos eléctricos. Además, desarrollé funcionalidades clave como inicio de sesión, registro de usuarios, recuperación de contraseñas, y aseguré un diseño completamente adaptable y responsive para garantizar una experiencia óptima en cualquier dispositivo.",
-        "link": "https://dev-proyecto-nissan.pantheonsite.io/"   
+        "link": "https://dev-proyecto-nissan.pantheonsite.io/"
     },
     {
         "title": "Enel",
         "image": "/img/enel.png",
         "description": "En esta página trabajé con Drupal, enfocándome en personalizar y dar estilos a la interfaz según el diseño proporcionado. Implementé un sistema de auto-direccionamiento en el menú para mejorar la navegación y aseguré un diseño completamente responsive, garantizando una experiencia óptima en dispositivos de cualquier tamaño.",
-        "link": "https://dev-enel.pantheonsite.io/"    
+        "link": "https://dev-enel.pantheonsite.io/"
     },
     {
         "title": "Stella Artrois",
         "image": "/img/stella.png",
         "description": "En este proyecto trabajé con Site Studio, una herramienta clave que me permitió desarrollar todo el front-end de la aplicación de manera eficiente. Implementé un diseño completamente responsive, asegurando que la interfaz se adaptara perfectamente a diferentes dispositivos y tamaños de pantalla. Además, integré animaciones dinámicas para mejorar la experiencia del usuario y diseñé sliders interactivos que permiten una navegación fluida y atractiva por los contenidos.",
-        "link": "http://stellaartroiscl20240228.abinbev.acsitefactory.com/"    
+        "link": "http://stellaartroiscl20240228.abinbev.acsitefactory.com/"
     },
     {
         "title": "Cencosud",
         "image": "/img/cencosud.png",
         "description": "En esta página trabajé en el desarrollo del front-end utilizando WordPress, implementando funciones personalizadas tanto en JavaScript como en CSS dentro del tema. Diseñé un tema completamente responsive, asegurando que la página se adaptara de manera óptima a cualquier dispositivo. ",
-        "link": "https://ganapuntoscencosud.co/"    
+        "link": "https://ganapuntoscencosud.co/"
     }
 ]

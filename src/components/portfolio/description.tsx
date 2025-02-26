@@ -12,6 +12,9 @@ export default function Description() {
     const param = useParams()
     const [infoPort, setInfoPort] = useState<infoPortfolio | null>(null)
     const { i18n } = useTranslation()
+    const renderHtml = (htmlString: string): { __html: string } => {
+        return { __html: htmlString };
+      };
     useEffect(() => {
         async function getInfo() {
             const response = await fetch(`../json/portfolio/${i18n.language}-portfolio.json`)
@@ -21,6 +24,7 @@ export default function Description() {
         }
         getInfo()
     }, [i18n.language])
+
     if (!infoPort) return (<h1>No se encontro informacion existente</h1>)
     return (
         <div className="container-description-work">
@@ -32,7 +36,7 @@ export default function Description() {
                     <h1>{infoPort.title}</h1>
                 </div>
                 <div className="container-description-work__description">
-                    <p>{infoPort.description}</p>
+                    <p dangerouslySetInnerHTML={renderHtml(infoPort.description)} />
                 </div>
                 <div className="container-description-work__link">
                     <a href={infoPort.link}>{i18n.language === 'es' ? 'Link' : 'Link'}</a>
